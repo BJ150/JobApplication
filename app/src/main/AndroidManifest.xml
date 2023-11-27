@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.jobapplicationportal">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".landingpage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".loginpage" />
+        <activity android:name=".signuppage" />
+        <activity android:name=".recuiterdashboard" />
+        <activity android:name=".addingjobs" />
+        <activity android:name=".applicantdashboard" />
+        <activity android:name=".searchjob" />
+        <activity android:name=".loginpageRecuiter" />
+        <activity android:name=".signupr" />
+        <activity android:name=".postedjob" />
+        <activity android:name=".editjob" />
+        <activity android:name=".applyingjob" />
+        <activity android:name=".applicants" />
+        <activity android:name=".recuiterconfirmation"></activity>
+    </application>
+
+</manifest>
